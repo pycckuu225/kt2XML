@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns="123"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="123 schemaFile.xsd">
+      
+  <offices>
+    <office code="A1">My office</office>
+    <office code="A2">My office</office>
+  </offices>
+  <person id="A2">
+    <name>
+        <first>vasia</first>
+        <surname>god</surname>
+    </name>
+    <adress>
+        <street>123 Main St</street>
+        <city>Anytown</city>
+        <index>123456</index>
+    </adress>
+    <phones>
+        <phone type="work">123-45-67</phone>
+        <phone>987-65-43</phone>
+    </phones>
+  </person>
+</notebook>
