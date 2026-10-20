@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notebook xmlns="123"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="123 schemaFile.xsd">
+<notebook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="schemaFile.xsd">
       
   <offices>
     <office code="A1">My office</office>
@@ -22,7 +21,7 @@
         <phone>987-65-43</phone>
     </phones>
   </person>
-  <person id="Aasjfks" office="A1">
+  <person id="Aasjfks" office="A2">
     <name>
         <first>vasia</first>
         <surname>god</surname>
