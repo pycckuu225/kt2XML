@@ -12,11 +12,26 @@
         <first>vasia</first>
         <surname>god</surname>
     </name>
-    <adress>
+    <address>
         <street>123 Main St</street>
         <city>Anytown</city>
         <index>123456</index>
-    </adress>
+    </address>
+    <phones>
+        <phone type="work">123-45-67</phone>
+        <phone>987-65-43</phone>
+    </phones>
+  </person>
+  <person id="A1">
+    <name>
+        <first>vasia</first>
+        <surname>god</surname>
+    </name>
+    <address>
+        <street>123 Main St</street>
+        <city>Anytown</city>
+        <index>123456</index>
+    </address>
     <phones>
         <phone type="work">123-45-67</phone>
         <phone>987-65-43</phone>

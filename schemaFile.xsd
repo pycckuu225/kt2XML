@@ -20,7 +20,7 @@
     </xs:sequence>
 </xs:complexType>
 
-<xs:complexType name="AdressType">
+<xs:complexType name="AddressType">
     <xs:all>
         <xs:element name="street" type="xs:string"/>
         <xs:element name="city" type="xs:string"/>
@@ -79,11 +79,11 @@
             </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="person">
+      <xs:element name="person" minOccurs="1" maxOccurs="unbounded">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="name" type="NameType"/>
-                <xs:element name="adress" type="AdressType"/>
+                <xs:element name="address" type="AddressType"/>
                 <xs:element name="phones" type="phoneType"/>
             </xs:sequence>
             <xs:attribute name="id" type="xs:IDREF" use="required"/>
