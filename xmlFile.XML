@@ -7,7 +7,7 @@
     <office code="A1">My office</office>
     <office code="A2">My office</office>
   </offices>
-  <person id="A2">
+  <person id="Ahfjsl" office="A2">
     <name>
         <first>vasia</first>
         <surname>god</surname>
@@ -22,7 +22,7 @@
         <phone>987-65-43</phone>
     </phones>
   </person>
-  <person id="A1">
+  <person id="Aasjfks" office="A1">
     <name>
         <first>vasia</first>
         <surname>god</surname>
